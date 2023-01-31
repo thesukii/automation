@@ -1,1 +1,11 @@
 
+#include <iostream>
+#include <stdalign.h>
+
+using namespace std;
+
+int main(){
+
+
+    
+}
