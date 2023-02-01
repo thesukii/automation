@@ -1,13 +1,17 @@
 #include <iostream>
 #include <stdlib.h>
 #include <time.h>
+#include <string>
 
 using namespace std;
 
+struct OwnerSt{
+int purchase;
+string comment;
+string purchase_history;
+OwnerSt():comment(""),purchase_history(""){};§
+};
 
 int main(){
-
-cout<<"automation"<<endl;
-
 
 }
