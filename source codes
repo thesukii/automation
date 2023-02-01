@@ -4,13 +4,28 @@
 #include <string>
 
 using namespace std;
-
-struct OwnerSt{
+//Customer Menui Struct//
+struct CustomerMenuSt{
 int purchase;
 string comment;
 string purchase_history;
-OwnerSt():comment(""),purchase_history(""){};§
+CustomerMenuSt():comment(""),purchase_history(""){};
 };
+//Customer Menu Struct//
+
+//Owner Menu Struct//
+struct OwnerMenuSt{
+int cost;
+int stock;
+int new_cost;
+string comment;
+
+    OwnerMenuSt():stock(100),cost(10) {};
+
+};
+OwnerMenuSt om;
+//Owner Menu Struct//
+
 
 int main(){
 
