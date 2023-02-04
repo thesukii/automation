@@ -28,5 +28,8 @@ OwnerMenuSt om;
 
 
 int main(){
+    cout<<"deneme"<<endl;
+
+
 
 }
