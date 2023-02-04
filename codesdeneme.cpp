@@ -2,5 +2,5 @@
 using namespace std;
 int main(){
     cout<<"kala"<<endl;
-    cout<<"kala2"<<endl;   
+    cout<<" ilkin kala2"<<endl;   
 }
